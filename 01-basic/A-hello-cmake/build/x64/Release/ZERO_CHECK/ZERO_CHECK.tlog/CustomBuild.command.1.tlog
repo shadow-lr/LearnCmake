@@ -1,0 +1,10 @@
+^D:\REPOS\LEARNCMAKE-VS\BUILD\CMAKEFILES\2446A49744AB0955A5C093399F8D4770\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/repos/LearnCmake-Vs -BD:/repos/LearnCmake-Vs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/repos/LearnCmake-Vs/build/LearnCmake-Vs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

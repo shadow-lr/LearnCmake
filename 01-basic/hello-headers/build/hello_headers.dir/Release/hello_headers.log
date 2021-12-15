@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/repos/LearnCmake/01-basic/hello-headers/CMakeLists.txt
+  Hello.cpp
+  main.cpp
+  正在生成代码...
+  hello_headers.vcxproj -> D:\repos\LearnCmake\01-basic\hello-headers\build\Release\hello_headers.exe

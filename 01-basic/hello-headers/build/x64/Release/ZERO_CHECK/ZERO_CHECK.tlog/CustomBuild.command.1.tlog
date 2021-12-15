@@ -1,0 +1,10 @@
+^D:\REPOS\LEARNCMAKE\01-BASIC\HELLO-HEADERS\BUILD\CMAKEFILES\A98D96B3C769151240779C17324BA99F\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/repos/LearnCmake/01-basic/hello-headers -BD:/repos/LearnCmake/01-basic/hello-headers/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/repos/LearnCmake/01-basic/hello-headers/build/hello_headers.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

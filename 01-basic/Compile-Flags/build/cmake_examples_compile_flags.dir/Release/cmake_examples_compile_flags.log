@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/repos/LearnCmake/01-basic/Compile-Flags/CMakeLists.txt
+  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.27.29110\include\ostream(747,1): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+D:\repos\LearnCmake\01-basic\Compile-Flags\main.cpp(5): message : 查看对正在编译的函数 模板 实例化“std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”的引用
+  cmake_examples_compile_flags.vcxproj -> D:\repos\LearnCmake\01-basic\Compile-Flags\build\Release\cmake_examples_compile_flags.exe

@@ -1,0 +1,10 @@
+^D:\REPOS\LEARNCMAKE\01-BASIC\COMPILE-FLAGS\BUILD\CMAKEFILES\3C83C82BB136C6D26862DEE0030672D0\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/repos/LearnCmake/01-basic/Compile-Flags -BD:/repos/LearnCmake/01-basic/Compile-Flags/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/repos/LearnCmake/01-basic/Compile-Flags/build/compile_flags.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -27,3 +27,11 @@ target_link_libraries( hello_binary
         hello_library
 )
 #链接库和包含头文件都有关于scope这三个关键字的用法。
+
+# set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME})
+# #强制按照C++语言编译
+# set_target_properties(rtTheNextWeek PROPERTIES LINKER_LANGUAGE CXX)
+
+# # 目标源文件
+# target_sources(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
+# target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
